@@ -6,3 +6,4 @@ rules:
   - DOMAIN-SUFFIX, futuholdings.com, Proxy
   - DOMAIN-SUFFIX, futuhk.com, Proxy
   - DOMAIN-SUFFIX, futufin.com, Proxy
+  - DOMAIN-SUFFIX, futustatic.com, Proxy
