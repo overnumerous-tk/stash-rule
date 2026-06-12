@@ -1,0 +1,8 @@
+name: "富途系域名走代理"
+desc: "将 futunn / moomoo / futuholdings / futuhk / futufin 相关请求发送至 Proxy 策略组"
+rules:
+  - DOMAIN-SUFFIX, futunn.com, Proxy
+  - DOMAIN-SUFFIX, moomoo.com, Proxy
+  - DOMAIN-SUFFIX, futuholdings.com, Proxy
+  - DOMAIN-SUFFIX, futuhk.com, Proxy
+  - DOMAIN-SUFFIX, futufin.com, Proxy
