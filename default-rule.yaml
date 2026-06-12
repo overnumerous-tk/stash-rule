@@ -9,10 +9,15 @@ rules:
   - DOMAIN-SUFFIX, futustatic.com, Proxy
   - DOMAIN-SUFFIX, futuhn.com, Proxy
   - DOMAIN-SUFFIX, cloud.tencent.com, Proxy
+  - IP-CIDR, 1.12.0.0/14, Proxy, no-resolve
   - IP-CIDR, 1.14.0.0/16, Proxy, no-resolve
   - IP-CIDR, 42.193.0.0/16, Proxy, no-resolve
   - IP-CIDR, 42.194.0.0/16, Proxy, no-resolve
   - IP-CIDR, 43.142.0.0/16, Proxy, no-resolve
+  - IP-CIDR, 43.160.0.0/12, Proxy, no-resolve
+  - IP-CIDR, 43.128.0.0/13, Proxy, no-resolve
+  - IP-CIDR, 43.152.0.0/13, Proxy, no-resolve
+  - IP-CIDR, 49.232.0.0/14, Proxy, no-resolve
   - IP-CIDR, 49.234.0.0/16, Proxy, no-resolve
   - IP-CIDR, 101.33.0.0/16, Proxy, no-resolve
   - IP-CIDR, 106.55.0.0/16, Proxy, no-resolve
@@ -22,4 +27,5 @@ rules:
   - IP-CIDR, 119.91.0.0/16, Proxy, no-resolve
   - IP-CIDR, 119.29.0.0/16, Proxy, no-resolve
   - IP-CIDR, 121.5.0.0/16, Proxy, no-resolve
+  - IP-CIDR, 124.220.0.0/14, Proxy, no-resolve
   - GEOIP, HK, Proxy, no-resolve
