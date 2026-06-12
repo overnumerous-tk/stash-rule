@@ -1,13 +1,6 @@
 name: "富途系域名走代理"
 desc: "将 futunn / moomoo / futuholdings / futuhk / futufin 相关请求发送至 Proxy 策略组"
 rules:
-  - DOMAIN-SUFFIX, futunn.com, Proxy
-  - DOMAIN-SUFFIX, moomoo.com, Proxy
-  - DOMAIN-SUFFIX, futuholdings.com, Proxy
-  - DOMAIN-SUFFIX, futuhk.com, Proxy
-  - DOMAIN-SUFFIX, futufin.com, Proxy
-  - DOMAIN-SUFFIX, futustatic.com, Proxy
-  - DOMAIN-SUFFIX, futuhn.com, Proxy
   - DOMAIN-SUFFIX, cloud.tencent.com, Proxy
   - IP-CIDR, 1.12.0.0/14, Proxy, no-resolve
   - IP-CIDR, 1.14.0.0/16, Proxy, no-resolve
