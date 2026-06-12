@@ -1,0 +1,33 @@
+name: "Brokage Domains"
+rules:
+  - DOMAIN-SUFFIX, futuhk.com, PROXY
+  - DOMAIN-SUFFIX, futu.1ink, PROXY
+  - DOMAIN-SUFFIX, futunn.com, PROXY
+  - DOMAIN-SUFFIX, futuhn.com, PROXY
+  - DOMAIN-SUFFIX, futu.com, PROXY
+  - DOMAIN-SUFFIX, futue.com, PROXY
+  - DOMAIN-SUFFIX, futu1.com, PROXY
+  - DOMAIN-SUFFIX, futu2.com, PROXY
+  - DOMAIN-SUFFIX, futu3.com, PROXY
+  - DOMAIN-SUFFIX, futu4.com, PROXY
+  - DOMAIN-SUFFIX, futu5.com, PROXY
+  - DOMAIN-SUFFIX, futu6.com, PROXY
+  - DOMAIN-SUFFIX, futu7.com, PROXY
+  - DOMAIN-SUFFIX, futu8.com, PROXY
+  - DOMAIN-SUFFIX, futu9.com, PROXY
+  - DOMAIN-SUFFIX, futuinc.com, PROXY
+  - DOMAIN-SUFFIX, futuniuniu.com, PROXY
+  - DOMAIN-SUFFIX, futu.cn, PROXY
+  - DOMAIN-SUFFIX, futufin.com, PROXY
+  - DOMAIN-SUFFIX, futuhk2.com, PROXY
+  - DOMAIN-SUFFIX, futuholdings.com, PROXY
+  - DOMAIN-SUFFIX, futuesop.com, PROXY
+  - DOMAIN-SUFFIX, futubull.cn, PROXY
+  - DOMAIN-SUFFIX, futuchain.com, PROXY
+  - DOMAIN-SUFFIX, 9oju31.launches.appsflyersdk.com, PROXY
+  - DOMAIN-SUFFIX, shortconn.im.qcloud.com, PROXY
+  - DOMAIN-SUFFIX, cdn.futustatic.com, PROXY
+  - DOMAIN-SUFFIX, api.moomoobull.com, PROXY
+  - DOMAIN-SUFFIX, sgqtej.launches.appsflyersdk.com, PROXY
+  - DOMAIN-SUFFIX, api.1bkrs.com, PROXY
+  - DOMAIN-SUFFIX, api-gl.1bkrs.com, PROXY
