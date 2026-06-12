@@ -1,24 +1,40 @@
-name: "富途系域名走代理"
-desc: "将 futunn / moomoo / futuholdings / futuhk / futufin 相关请求发送至 Proxy 策略组"
+name: "Tencent Cloud IPs"
 rules:
   - DOMAIN-SUFFIX, cloud.tencent.com, Proxy
   - IP-CIDR, 1.12.0.0/14, Proxy, no-resolve
-  - IP-CIDR, 1.14.0.0/16, Proxy, no-resolve
-  - IP-CIDR, 42.193.0.0/16, Proxy, no-resolve
-  - IP-CIDR, 42.194.0.0/16, Proxy, no-resolve
-  - IP-CIDR, 43.142.0.0/16, Proxy, no-resolve
-  - IP-CIDR, 43.160.0.0/12, Proxy, no-resolve
+  - IP-CIDR, 1.14.0.0/15, Proxy, no-resolve   # 新增 (原1.14.0.0/16)
+  - IP-CIDR, 1.24.0.0/13, Proxy, no-resolve   # 新增
+  - IP-CIDR, 27.128.0.0/15, Proxy, no-resolve # 新增
+  - IP-CIDR, 42.192.0.0/15, Proxy, no-resolve # 新增
+  - IP-CIDR, 42.194.128.0/17, Proxy, no-resolve   # 新增
   - IP-CIDR, 43.128.0.0/13, Proxy, no-resolve
   - IP-CIDR, 43.152.0.0/13, Proxy, no-resolve
+  - IP-CIDR, 43.159.0.0/16, Proxy, no-resolve   # 新增
+  - IP-CIDR, 43.160.0.0/12, Proxy, no-resolve
+  - IP-CIDR, 43.174.0.0/15, Proxy, no-resolve   # 新增
+  - IP-CIDR, 43.242.252.0/22, Proxy, no-resolve # 新增
+  - IP-CIDR, 49.51.0.0/16, Proxy, no-resolve   # 新增
   - IP-CIDR, 49.232.0.0/14, Proxy, no-resolve
-  - IP-CIDR, 49.234.0.0/16, Proxy, no-resolve
+  - IP-CIDR, 81.68.0.0/14, Proxy, no-resolve   # 新增
+  - IP-CIDR, 82.156.0.0/15, Proxy, no-resolve   # 新增
   - IP-CIDR, 101.33.0.0/16, Proxy, no-resolve
-  - IP-CIDR, 106.55.0.0/16, Proxy, no-resolve
-  - IP-CIDR, 111.230.0.0/16, Proxy, no-resolve
-  - IP-CIDR, 118.89.0.0/16, Proxy, no-resolve
-  - IP-CIDR, 119.28.0.0/16, Proxy, no-resolve
+  - IP-CIDR, 106.52.0.0/15, Proxy, no-resolve   # 新增 (原106.55.0.0/16)
+  - IP-CIDR, 109.244.0.0/15, Proxy, no-resolve   # 新增
+  - IP-CIDR, 111.230.0.0/15, Proxy, no-resolve   # 新增 (原111.230.0.0/16)
+  - IP-CIDR, 118.24.0.0/15, Proxy, no-resolve   # 新增 (原118.89.0.0/16)
+  - IP-CIDR, 119.28.0.0/15, Proxy, no-resolve   # 新增 (合并原119.28.0.0/16 + 119.29.0.0/16)
   - IP-CIDR, 119.91.0.0/16, Proxy, no-resolve
-  - IP-CIDR, 119.29.0.0/16, Proxy, no-resolve
-  - IP-CIDR, 121.5.0.0/16, Proxy, no-resolve
+  - IP-CIDR, 121.4.0.0/15, Proxy, no-resolve   # 新增 (原121.5.0.0/16)
+  - IP-CIDR, 123.206.0.0/15, Proxy, no-resolve   # 新增
   - IP-CIDR, 124.220.0.0/14, Proxy, no-resolve
-  - GEOIP, HK, Proxy, no-resolve
+  - IP-CIDR, 129.211.0.0/16, Proxy, no-resolve   # 新增
+  - IP-CIDR, 134.175.0.0/16, Proxy, no-resolve   # 新增
+  - IP-CIDR, 139.199.0.0/16, Proxy, no-resolve   # 新增
+  - IP-CIDR, 154.8.0.0/16, Proxy, no-resolve   # 新增
+  - IP-CIDR, 162.14.0.0/16, Proxy, no-resolve   # 新增
+  - IP-CIDR, 175.27.0.0/16, Proxy, no-resolve   # 新增
+  - IP-CIDR, 182.254.128.0/17, Proxy, no-resolve   # 新增
+  - IP-CIDR, 193.112.0.0/16, Proxy, no-resolve   # 新增
+  - IP-CIDR, 203.195.0.0/16, Proxy, no-resolve   # 新增
+  - IP-CIDR, 211.152.0.0/16, Proxy, no-resolve   # 新增
+  - IP-CIDR, 223.211.0.0/16, Proxy, no-resolve   # 新增
