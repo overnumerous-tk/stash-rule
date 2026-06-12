@@ -8,5 +8,5 @@ rules:
   - DOMAIN-SUFFIX, futufin.com, Proxy
   - DOMAIN-SUFFIX, futustatic.com, Proxy
   - DOMAIN-SUFFIX, cloud.tencent.com, Proxy
-  - DOMAIN-SUFFIX, 119.91.245.213, Proxy
-  - DOMAIN-SUFFIX, 119.91.245.125, Proxy
+  - IP-CIDR, 119.91.245.213, Proxy
+  - IP-CIDR, 119.91.245.125, Proxy
