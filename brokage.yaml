@@ -1,6 +1,5 @@
 name: "Brokage Domains"
 rules:
-  # DOMAIN-SUFFIX 规则 (68条)
   - DOMAIN-SUFFIX, futuhk.com, Proxy
   - DOMAIN-SUFFIX, futu.link, Proxy
   - DOMAIN-SUFFIX, futunn.com, Proxy
@@ -69,8 +68,6 @@ rules:
   - DOMAIN-SUFFIX, tigerbrokers.com, Proxy
   - DOMAIN-SUFFIX, tigerbrokers.net, Proxy
   - DOMAIN-SUFFIX, tigerbrokers.nz, Proxy
-
-  # DOMAIN 规则 (18条)
   - DOMAIN, cdn.futustatic.com, Proxy
   - DOMAIN, quote.longbridge.global, Proxy
   - DOMAIN, trade.longportapp.com, Proxy
@@ -89,8 +86,6 @@ rules:
   - DOMAIN, trade.futunn.com, Proxy
   - DOMAIN, support.futunn.com, Proxy
   - DOMAIN, download.futunn.com, Proxy
-
-  # IP-CIDR 规则 (63条)
   - IP-CIDR, 119.28.37.0/24, Proxy, no-resolve
   - IP-CIDR, 43.153.233.0/24, Proxy, no-resolve
   - IP-CIDR, 124.156.233.0/24, Proxy, no-resolve
