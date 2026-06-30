@@ -85,14 +85,6 @@ routing = 1
 2, openapi-quote.longbridge.cn
 2, openapi-trade.longbridge.cn
 2, cg.play-analytics.com
-2, qtcard.futunn.com
-2, qtcardfthk.futufin.com
-2, openapi.futunn.com
-2, api.futunn.com
-2, api5.futunn.com
-2, trade.futunn.com
-2, support.futunn.com
-2, download.futunn.com
 0, 119.28.37.0/24
 0, 43.153.233.0/24
 0, 124.156.233.0/24
